@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://leosin.top/"/>
-  <updated>2016-10-19T15:45:43.942Z</updated>
+  <updated>2016-10-19T15:50:31.742Z</updated>
   <id>http://leosin.top/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://leosin.top/hello-world/"/>
     <id>http://leosin.top/hello-world/</id>
     <published>2016-10-19T01:04:41.263Z</published>
-    <updated>2016-10-19T15:45:43.942Z</updated>
+    <updated>2016-10-19T15:50:31.742Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><a id="more"></a>
@@ -41,6 +41,8 @@
     
     </summary>
     
+    
+      <category term="感悟" scheme="http://leosin.top/tags/%E6%84%9F%E6%82%9F/"/>
     
   </entry>
   
