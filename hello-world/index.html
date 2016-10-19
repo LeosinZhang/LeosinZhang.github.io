@@ -96,7 +96,7 @@ Quick">
 <meta property="og:site_name" content="Leosin's Blog">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
 Quick">
-<meta property="og:updated_time" content="2016-10-19T01:04:41.263Z">
+<meta property="og:updated_time" content="2016-10-19T08:04:09.583Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
 <meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
@@ -108,12 +108,12 @@ Quick">
   var NexT = window.NexT || {};
   var CONFIG = {
     scheme: 'Mist',
-    sidebar: {"position":"left","display":"always"},
+    sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
     duoshuo: {
       userId: '0',
-      author: '博主'
+      author: 'Author'
     }
   };
 </script>
@@ -182,7 +182,7 @@ Quick">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            首页
+            Home
           </a>
         </li>
       
@@ -192,7 +192,7 @@ Quick">
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            分类
+            Categories
           </a>
         </li>
       
@@ -202,7 +202,7 @@ Quick">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            归档
+            Archives
           </a>
         </li>
       
@@ -212,7 +212,7 @@ Quick">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            标签
+            Tags
           </a>
         </li>
       
@@ -222,7 +222,7 @@ Quick">
             
               <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
-            搜索
+            Search
           </a>
         </li>
       
@@ -275,7 +275,7 @@ Quick">
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">发表于</span>
+            <span class="post-meta-item-text">Posted on</span>
             <time itemprop="dateCreated" datetime="2016-10-19T09:04:41+08:00" content="2016-10-19">
               2016-10-19
             </time>
@@ -305,7 +305,8 @@ Quick">
 
       
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><a id="more"></a>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
@@ -379,10 +380,10 @@ Quick">
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
+            Overview
           </li>
         </ul>
       
@@ -391,15 +392,15 @@ Quick">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.png"
-               alt="����" />
-          <p class="site-author-name" itemprop="name">����</p>
-          <p class="site-description motion-element" itemprop="description">�����ѹ����� ����һ������Ц��˵����</p>
+               alt="MyName" />
+          <p class="site-author-name" itemprop="name">MyName</p>
+          <p class="site-description motion-element" itemprop="description">Mydescription</p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
               <span class="site-state-item-count">1</span>
-              <span class="site-state-item-name">日志</span>
+              <span class="site-state-item-name">posts</span>
             </a>
           </div>
 
@@ -460,15 +461,15 @@ Quick">
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">����</span>
+  <span class="author" itemprop="copyrightHolder">MyName</span>
 </div>
 
 <div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
 </div>
 
 <div class="theme-info">
-  主题 -
+  Theme -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
     NexT.Mist
   </a>
