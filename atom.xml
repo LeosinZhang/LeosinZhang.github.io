@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://leosin.top/"/>
-  <updated>2016-10-24T08:02:41.787Z</updated>
+  <updated>2016-10-24T09:02:24.109Z</updated>
   <id>http://leosin.top/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android四大组件的工作过程</title>
+    <link href="http://leosin.top/Android%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/index/"/>
+    <id>http://leosin.top/Android四大组件/index/</id>
+    <published>2016-10-24T06:22:29.000Z</published>
+    <updated>2016-10-24T09:02:24.109Z</updated>
+    
+    <content type="html"><![CDATA[<p>四大组件”Activity,Service,BroadcastReceiver,ContentProvider”是Android开发的基石。</p>
+<h1 id="Actiivty"><a href="#Actiivty" class="headerlink" title="Actiivty"></a>Actiivty</h1><p>Activity是我们接触Android的第一个组建，和其它三个组建不同之处在于，它呈现给我们的是直观的可见的窗口。</p>
+<a id="more"></a>
+<h3 id="Activity生命周期"><a href="#Activity生命周期" class="headerlink" title="Activity生命周期"></a>Activity生命周期</h3><ol>
+<li>正常情况下的生命周期</li>
+</ol>
+<p><img src="E:\Blog\Hexo\source\_posts\Android四大组件\index\Activity生命周期.jpg" alt="生命周期"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;四大组件”Activity,Service,BroadcastReceiver,ContentProvider”是Android开发的基石。&lt;/p&gt;
+&lt;h1 id=&quot;Actiivty&quot;&gt;&lt;a href=&quot;#Actiivty&quot; class=&quot;headerlink&quot; title=&quot;Actiivty&quot;&gt;&lt;/a&gt;Actiivty&lt;/h1&gt;&lt;p&gt;Activity是我们接触Android的第一个组建，和其它三个组建不同之处在于，它呈现给我们的是直观的可见的窗口。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="http://leosin.top/tags/Android/"/>
+    
+      <category term="四大组件" scheme="http://leosin.top/tags/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
